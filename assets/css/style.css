@@ -1,6 +1,6 @@
-/* body {
-    background-color: #3c424c;
-} */
+body {
+    overflow-y: hidden;
+}
 
 .container {
     max-width: 1344px;
@@ -8,7 +8,7 @@
 }
 
 nav {
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 a {
@@ -18,6 +18,11 @@ a {
     padding: 10px 15px;
     cursor: pointer;
     text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    width: 100%;
 }
 
 .lmLogo {
@@ -29,8 +34,23 @@ img {
     height: 35px;
 }
 
-a.hello {
+span {
     float: right;
+}
+
+a.portfolio {
+    border: none;
+    color: #3b414c;
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a.portfolio:hover {
+    color: #2962ff;
+    cursor: pointer;
+}
+
+a.hello {
     color: #2962ff;
     font-family: 'Open Sans', sans-serif;
 }
@@ -49,14 +69,15 @@ a.hello:hover {
     
 }
 
-.role {
+h1 {
     font-family: 'Archivo', sans-serif;
     font-size: 40px;
     color: #3b414c;
 }
 
-.reason {
+h2 {
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     color: #3b414c;
 }
 
@@ -66,10 +87,22 @@ a.hello:hover {
     height: 35vh;
 }
 
-button.projects {
-    border: white solid 3px;
-    background-color: transparent;
-    border-radius: 5px;
+h3 {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
     color: white;
+    padding: 40px 0 20px 0;
+    text-align: center;
+
+
 }
+
+p {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 45vw;
+    margin: 0 auto;
+}
+
 
